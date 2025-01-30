@@ -1,0 +1,25 @@
+name: FBI_snp
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - snippy
+  - bowtie2
+  - fasttree
+  - iqtree
+  - picard
+  - seqkit
+  - snakemake
+  - r-base
+  - bioconductor-ggtree
+  - r-adegenet
+  - r-ape
+  - r-dplyr
+  - r-optparse
+  - r-phangorn
+  - r-readr
+  - r-codetools
+  - snpeff==4.3
+  - cutadapt
+  - biopython
+prefix: /users/data/SSI/Conda_envs/FBI_snp
