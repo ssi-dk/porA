@@ -1,0 +1,26 @@
+name: FBI_amplicons
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base
+  - bioconductor-dada2
+  - bioconductor-biostrings
+  - bioconductor-decipher
+  - bioconductor-ggtree
+  - bioconductor-phyloseq
+  - r-ape
+  - r-dendextend
+  - r-dplyr
+  - r-forcats
+  - r-future.apply
+  - r-ggraph
+  - r-igraph
+  - r-optparse
+  - r-rcolorbrewer
+  - r-tidyr
+  - r-phangorn
+  - bioconductor-msa
+  - r-seqinr
+  - mafft
+prefix: /users/data/SSI/Conda_envs/FBI_amplicons
