@@ -86,7 +86,7 @@ if(str_count(opt$seqtab, ',')>=1){
 rownames(seqtab_merge)<-gsub('Flok', '', rownames(seqtab_merge))
 
 # Remove chimeras
-seqtab.nochim <- removeBimeraDenovo(seqtab_merge, method="consensus", multithread=TRUE, verbose = TRUE)
+seqtab.nochim <- removeBimeraDenovo(seqtab_merge, method="pooled", multithread=TRUE, verbose = TRUE)
 
 #write ASV table
 asv <- seqtab.nochim %>% t() %>% data.frame(check.names=FALSE) %>% rownames_to_column("ASV")
